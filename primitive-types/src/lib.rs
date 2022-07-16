@@ -59,7 +59,7 @@ construct_fixed_hash! {
 }
 construct_fixed_hash! {
 	/// Fixed-size uninterpreted hash type with 32 bytes (256 bits) size.
-	#[cfg_attr(feature = "scale-info", derive(TypeInfo))]
+	#[derive(TypeInfo)]
 	pub struct H256(32);
 }
 construct_fixed_hash! {
